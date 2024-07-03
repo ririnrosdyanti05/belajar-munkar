@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/row_column/latihan_dua.dart';
 // import 'package:myapp/container_widget.dart';
 // import 'package:myapp/row_column/column_widget.dart';
 // import 'package:myapp/row_column/row_column_widget.dart';
 // import 'package:myapp/row_column/row_widget.dart';
-import 'package:myapp/row_column/latihan_row_column_widget.dart';
 
 
 // import 'package:myapp/container_widget.dart'
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Belajar Flutter"),
           ), 
-          body: LatihanRowColumn() 
+          body: LatihanDua()
            ),
         ); 
     }
