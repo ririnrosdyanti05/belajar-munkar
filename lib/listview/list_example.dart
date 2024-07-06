@@ -3,7 +3,7 @@ class ListExample extends StatelessWidget {
     
            final List<Map<String, dynamic>> data =[
             {
-              'nama':'Ririn Rosdyanti'',
+              'nama':'Ririn Rosdyanti',
               'umur':17, 
               'alamat':'Garut',
               'photo': [
@@ -42,9 +42,9 @@ class ListExample extends StatelessWidget {
                         ]
             },
              {
-              'nama':'Ririn Rosdyanti'',
+              'nama':'Ririn Rosdyanti',
               'umur':19, 
-              'alamat':'Banjaran',
+              'alamat':'Bandung',
               'photo': [
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
