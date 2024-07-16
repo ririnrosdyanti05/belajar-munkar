@@ -17,7 +17,7 @@ class ListBuilder extends StatelessWidget {
     "Android Marshmallow",
     "Android Nougat",
     "Android Oreo",
-    "Android Pie",
+    "Android Pie"
   ];
 
   @override

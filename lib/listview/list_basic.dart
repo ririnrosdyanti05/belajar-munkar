@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
+
 class ListBasic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter ListView"),
+        title: Text("Flutter List View"),
       ),
       body: ListView(
+        scrollDirection: Axis.horizontal,
         children: <Widget>[
           Padding(
             padding: EdgeInsets.all(8.0),

@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class BelajarRow extends StatelessWidget {
+class BelajarRow extends StatelessWidget{
 
-  @override
+  @override 
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Text('Ini Row 1'),
-        Text('Ini Row 2'),
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    children: [
+      Text('Ini Row 1'),
+       Text('Ini Row 2'), 
         Text('Ini Row 3')
-      ],
-    );
-  }
+    ]
+  );
+}
 }

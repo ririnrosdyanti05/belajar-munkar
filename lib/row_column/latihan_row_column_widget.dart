@@ -28,6 +28,7 @@ class LatihanRowColumn extends StatelessWidget {
              Container(
             child: Text('ini column 1'),
             color: Colors.amber,
+            
           ),
           Container(
             child: Text('ini column 2'),

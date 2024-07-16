@@ -6,7 +6,6 @@ class DetailWisataScreen extends StatelessWidget {
   final String image;
   final List<String> gallery;
   final String desc;
-
   DetailWisataScreen({
     required this.nama,
     required this.kota,
@@ -14,7 +13,6 @@ class DetailWisataScreen extends StatelessWidget {
     required this.gallery,
     required this.desc,
   });
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,8 +24,12 @@ class DetailWisataScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset(image,
-              fit:  BoxFit.cover, width: double.infinity, height: 250),
+            Image.asset(
+              image,
+              fit: BoxFit.cover,
+              width: double.infinity,
+              height: 250,
+            ),
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
@@ -41,18 +43,18 @@ class DetailWisataScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Text(
-              desc,
-              style: TextStyle(
-                fontSize: 16.0,
-              ),
-              textAlign: TextAlign.justify,
+                desc,
+                style: TextStyle(
+                  fontSize: 16.0,
+                ),
+                textAlign: TextAlign.justify,
               ),
             ),
             SizedBox(height: 20.0),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Text(
-                "Galerry",
+                "Gallery",
                 style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
@@ -62,11 +64,11 @@ class DetailWisataScreen extends StatelessWidget {
             SizedBox(height: 10.0),
             Container(
               height: 150,
-              child:ListView.builder(
+              child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: gallery.length,
                 itemBuilder: (context, index) {
-                  return  Container(
+                  return Container(
                     margin: EdgeInsets.all(10),
                     width: 150,
                     decoration: BoxDecoration(
@@ -77,7 +79,7 @@ class DetailWisataScreen extends StatelessWidget {
                       ),
                     ),
                   );
-                }
+                },
               ),
             ),
           ],

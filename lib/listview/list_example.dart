@@ -3,55 +3,55 @@ class ListExample extends StatelessWidget {
     
            final List<Map<String, dynamic>> data =[
             {
-              'nama':'Ririn Rosdyanti',
+              'nama':'Jelita',
               'umur':17, 
-              'alamat':'Garut',
+              'alamat':'Paris',
               'photo': [
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
-                        'https://picsum.photos/seed/picsum200/300'
+                        'https://picsum.photos/seed/picsum/200/300',
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
-                        'https://picsum.photos/seed/picsum200/300'
+                        'https://picsum.photos/seed/picsum/200/300'
                         ]
             },
             {
-              'nama':'Ririn Rosdyanti',
+              'nama':'Jelita Eka ',
               'umur':19, 
-              'alamat':'Sumedang',
+              'alamat':'London',
               'photo': [
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
-                        'https://picsum.photos/seed/picsum200/300'
+                        'https://picsum.photos/seed/picsum/200/300',
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
-                        'https://picsum.photos/seed/picsum200/300'
+                        'https://picsum.photos/seed/picsum/200/300'
                         ]
             },
              {
-              'nama':'Ririn Rosdyanti',
+              'nama':'Jelita Eka Fadila',
               'umur':19, 
-              'alamat':'Bandung',
+              'alamat':'Dubay',
               'photo': [
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
-                        'https://picsum.photos/seed/picsum200/300'
+                        'https://picsum.photos/seed/picsum/200/300',
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
-                        'https://picsum.photos/seed/picsum200/300'
+                        'https://picsum.photos/seed/picsum/200/300'
                         ]
             },
              {
-              'nama':'Ririn Rosdyanti',
+              'nama':'Jelita Eka Fadila Larasati',
               'umur':19, 
-              'alamat':'Bandung',
+              'alamat':'Swiss',
               'photo': [
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
-                        'https://picsum.photos/seed/picsum200/300'
+                        'https://picsum.photos/seed/picsum/200/300',
                         'https://picsum.photos/200/300',
                         'https://picsum.photos/200',
-                        'https://picsum.photos/seed/picsum200/300'
+                        'https://picsum.photos/seed/picsum/200/300'
                         ]
             },
            ];
